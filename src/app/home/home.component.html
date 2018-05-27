@@ -1,0 +1,142 @@
+
+<div class="container" >
+    <div class="row "  style=" padding-left:40px; padding-right:40px;border-top:1px solid #ffb500;">
+      <div class="span4">
+        <img style="float:left" src="../assets/images/bp.png"/>
+        <div class="content-heading"><h6>18001233066 &nbsp;&nbsp;&nbsp;&nbsp; </h6></div>
+      </div>
+      <div class="col-sm-3 d-none d-md-block" style="color:#003f74; margin-left:20px;margin-right:20px;"> <img class=".float-left" style="float:left" src="../assets/images/mail.png">&nbsp;&nbsp;forex@nishiforex.com </div>
+      <div class="col-sm d-none d-md-block" style="color:#003f74; margin-left:20px;margin-right:20px;">Live Rates</div>
+      <div class="col-sm d-none d-md-block" style="color:#003f74; margin-left:20px;margin-right:20px;">About Us</div>
+      <div class="col-sm d-none d-md-block" style="color:#003f74; margin-left:20px;margin-right:20px;">Services</div>
+      <div class="col-sm d-none d-md-block" style="color:#003f74; margin-left:20px;margin-right:20px;">Login</div>
+      <div class="col-sm d-none d-md-block" style="color:#003f74; margin-left:20px;margin-right:20px;">Register</div>
+    </div>
+
+
+<nav class="navbar navbar-expand-md bg-light navbar-light" style=" border-top:1px solid #ffb500;border-bottom:1px solid #ffb500;">
+  <a class="navbar-brand " href="#">
+      <img src="../assets/images/logo.png" alt="Logo" style="width:100px;">
+  </a>
+  <button class="navbar-toggler" style="background:#ffb500" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div style="float:right" class="collapse navbar-collapse" id="collapsibleNavbar">
+    <div class="row " >
+      <div  class="col-sm-2 ">
+        <a class="nav-link" style="color:#003f74; margin-left:20px;margin-right:20px;"  href="#">Buy Forex</a>
+      </div>
+      <div  class="col-sm-2">
+        <a class="nav-link" style="color:#003f74; margin-left:20px;margin-right:20px;"  href="#">Sell Forex</a>
+      </div>
+      <div  class="col-sm-2">
+        <a class="nav-link" style="color:#003f74; margin-left:20px;margin-right:20px;"  href="#">Money Transfer</a>
+      </div>
+      <div  class="col-sm-2">
+        <a class="nav-link" style="color:#003f74; margin-left:20px;margin-right:20px;"  href="#">Forex Card</a>
+      </div>
+      <div class="col-sm-2">
+        <a class="nav-link" style="color:#003f74; margin-left:20px;margin-right:20px;"  href="#">Travel Insurance</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<br>
+<p class="text-center">In a hurry</p>
+<p class="text-center">Drop in Your Contact Details & We'll call you right back</p>
+
+<form class="form-inline justify-content-center" >
+  <label type="text" style="float:right" class="mr-sm-2">Request a Call Back </label>
+  <input type="text" style="float:right" placeholder="Name" class="form-control mb-2 mr-sm-2" id="name">
+  <input type="email" style="float:right" placeholder="E-mail" class="form-control mb-2 mr-sm-2" id="email">
+  <input type="number" style="float:right" placeholder="Mobile No." class="form-control mb-2 mr-sm-2" id="mnumber">
+  <button type="submit" class="btn btn-primary mb-2">Call Me</button>
+</form>
+
+<div id="nishi" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#nishi" data-slide-to="0" class="active"></li>
+    <li data-target="#nishi" data-slide-to="1"></li>
+    <li data-target="#nishi" data-slide-to="2"></li>
+    <li data-target="#nishi" data-slide-to="3"></li>
+    <li data-target="#nishi" data-slide-to="4"></li>
+  </ol>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/images/slide1.png" alt="SliderImg" width="1100" height="200">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/images/slide2.png" alt="SliderImg" width="1100" height="200">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/images/slide3.png" alt="SliderImg" width="1100" height="200">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/images/slide3.png" alt="SliderImg" width="1100" height="200">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/images/slide3.png" alt="SliderImg" width="1100" height="200">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#nishi" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#nishi" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id = "OrderContainer">
+    <select id = "location" (change)="selectlocation($event)">   class="inputText" >
+               <option value = "1">Chennai</option>
+               <option value = "2">Mumbai</option>
+               <option value = "3">Delhi</option>
+               <option value = "4">Kolkatta</option>
+    </select>
+    <select id = "currency" (change)="selectCurrency($event)"> class="inputText">
+               <option value = "1">US DOLLOR</option>
+               <option value = "2">EURO</option>
+               <option value = "3">BRITISH POUNDS</option>
+               <option value = "4">AUSTRALIAN DOLLOR</option>
+               <option value = "5">CANADIAN DOLLOR</option>
+               <option value = "6">SINGAPORE DOLLOR</option>
+               <option value = "7">NEWZEALAND DOLLOR</option>
+               <option value = "8">HONGKONG DOLLOR</option>
+    </select>
+    <select id = "cardtype"  (change)="selectCard($event)"> class="inputText">
+               <option value = "1">FOREX CARD</option>
+               <option value = "2">CURRENCY NOTE</option>
+               <option value = "3">TRAVELLAR CHEQUES</option>
+    </select>
+    <input type="number"   id="forexAmount" [(ngModel)]="famount" value=0  placeholder="Forex Amount"/>
+    <div type="number" id="Rate">Rate {{rate}}</div>
+    <input  id="inrAmount"  value={{famount*rate}} placeholder="INR Amount"/>
+
+    <button id="addProduct" type="button" (click)="addProduct()"  >Add Product</button>
+    <div id="totalAmount"  > RS {{famount*rate}} </div>
+    <div id="displayOrders">
+        <app-table></app-table>
+    </div>
+
+</div>

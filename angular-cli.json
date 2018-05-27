@@ -9,7 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+		"logo.ico"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -18,9 +18,15 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
-      ],
-      "scripts": [],
+          "styles.css",
+          "../node_modules/bootstrap.min.css"
+        ],
+
+      "scripts": [
+		"../node_modules/jquery/dist/jquery.js",
+		"../node_modules/popper.js/dist/umd/popper.js",
+		"../node_modules/bootstrap/dist/js/bootstrap.js"
+	  ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

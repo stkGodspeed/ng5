@@ -2,19 +2,27 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import {CartService} from './cart.service';
+
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { TableComponent } from './table/table.component';
+import { TableRowComponent } from './table-row/table-row.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    TableComponent,
+    TableRowComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [CartService],
+  bootstrap: [AppComponent,HomeComponent]
 })
 export class AppModule { }

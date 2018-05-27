@@ -1,0 +1,134 @@
+.navbar-nav > li{
+  margin-left:40px;
+  margin-right:40px;
+}
+
+.carousel-inner img {
+     width: 100%;
+     height: 100%;
+ }
+#rates{
+  .carousel-inner img {
+       width: 50%;
+       height: 50%;
+   }
+}
+
+
+#bodyContantainer{
+  border:1px solid red;
+  width :1024px;
+  height:780px;
+}
+
+#menuTab{
+  border:1px solid green;
+  width :1024px;
+  height:80px;
+}
+
+#logoTab{
+  border:1px solid green;
+  width :1024px;
+  height:80px;
+}
+
+#OrderContainer{
+  position: absolute;
+  top :100px;
+  left:400px;
+  width:390px;
+  height:500px;
+  border: 10px solid #BC7E22;
+  border-radius: 5px;
+  background-color: #49777A;
+  display: none;
+}
+
+#currency{
+  position:absolute;
+  border-radius: 5px;
+  border : 1px solid black;
+  top:20px;
+  left:220px;
+  width:130px;
+  height:25px;
+}
+
+#cardtype{
+  position:absolute;
+  border-radius: 5px;
+  border : 1px solid black;
+  top:80px;
+  left:20px;
+  width:330px;
+  height:25px;
+}
+
+#forexAmount{
+  position:absolute;
+  border-radius: 5px;
+  border : 1px solid black;
+  top:140px;
+  left:20px;
+  width:330px;
+  height:25px;
+}
+#Rate{
+  position:absolute;
+  top:300px;
+  left:200px;
+  width:330px;
+  height:25px;
+  font-size: 20pt;
+  color:white;
+}
+#inrAmount{
+  position:absolute;
+  border-radius: 5px;
+  border : 1px solid black;
+  top:200px;
+  left:20px;
+  width:330px;
+  height:25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#addProduct{
+  position:absolute;
+  border-radius: 5px;
+  top:250px;
+  left:200px;
+  width:100px;
+  height:25px;
+  cursor: pointer;
+}
+#totalAmount{
+  position:absolute;
+  border-radius: 5px;
+  top:450px;
+  left:20px;
+  width:100px;
+  height:25px;
+  font-size: 20pt;
+  color:white;
+}
+#displayOrders{
+  position: absolute;
+  border:1px solid black;
+  top:330px;
+  left:20px;
+  width: 330px;
+  height:120px;
+}
+.inputText{
+  position:absolute;
+  border-radius: 5px;
+  border : 1px solid black;
+  top:20px;
+  left:20px;
+  width:130px;
+  height:25px;
+}
