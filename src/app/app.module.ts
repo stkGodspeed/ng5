@@ -5,17 +5,21 @@ import { HttpModule } from '@angular/http';
 import {CartService} from './cart.service';
 
 
+
+
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { TableComponent } from './table/table.component';
-import { TableRowComponent } from './table-row/table-row.component';
+
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    TableComponent,
-    TableRowComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

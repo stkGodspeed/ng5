@@ -1,1 +1,40 @@
+.select2-container .select2-selection--single {
+    height: 38px;
+}
 
+.select2-container--default .select2-selection--single {
+    border: 1px solid #1D6A90 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered  {
+    padding-top: 3px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    margin-top: 3px;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.flagmiddlealign {
+    display: inline-block;
+    width: 32px;
+    height: 29px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

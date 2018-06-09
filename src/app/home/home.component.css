@@ -1,3 +1,123 @@
+.slide-wrapper {
+position: relative;
+  
+}
+
+
+.alignCenter{
+    text-align: center;
+}
+
+.topholder {
+    z-index: 100;
+    margin-right: auto;
+    margin-left: auto; 
+    border:1px solid green;
+    background-color: azure;
+
+}
+
+
+@media (min-width: 768px) { 
+    .carousel-caption {
+        text-align: left;
+        padding-right: 300px;
+    }
+    .topholder {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top:2%;
+        margin-left:45%;
+    }
+
+    .orderForm{
+        min-width:500px;
+           
+    }
+    
+
+}
+
+
+/* MISC */
+#homepage-feature .item {
+    overflow: hidden;
+    height: 400px;
+    background-color: transparent;
+    background-size: cover;
+}
+#homepage-feature > .carousel-control {
+    width: 30px;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: none;
+    filter: none;
+    opacity: 1;
+}
+#homepage-feature > .carousel-control span {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+
+
+
+@media (min-width: 577px) {
+  .borderb{
+      border-right:1px solid #003f74;
+
+  }
+
+  .fontBottomlittle{
+    font-size:20px; 
+
+   }
+ 
+ }
+
+ @media (max-width: 576px) {
+   .borderb{
+       border-bottom:1px solid #003f74;
+    
+   }
+
+   .marginBottom{
+    margin-bottom:15px; 
+
+   }
+
+   .fontBottom{
+    font-size:15px; 
+
+   }
+   .fontBottomlittle{
+    font-size:12.5px; 
+
+   }
+
+
+  }
+
+
+
+
+ * {
+     box-sizing: border-box;
+ }
+
+.footer a {
+color:#ffffff;
+
+}
+ .d-inline-flex a{
+   color:#ffb500;
+   } 
+
 .navbar-nav > li{
   margin-left:40px;
   margin-right:40px;
@@ -7,128 +127,9 @@
      width: 100%;
      height: 100%;
  }
-#rates{
-  .carousel-inner img {
-       width: 50%;
-       height: 50%;
-   }
-}
 
+ button{
+     cursor: pointer;
+ }
 
-#bodyContantainer{
-  border:1px solid red;
-  width :1024px;
-  height:780px;
-}
-
-#menuTab{
-  border:1px solid green;
-  width :1024px;
-  height:80px;
-}
-
-#logoTab{
-  border:1px solid green;
-  width :1024px;
-  height:80px;
-}
-
-#OrderContainer{
-  position: absolute;
-  top :100px;
-  left:400px;
-  width:390px;
-  height:500px;
-  border: 10px solid #BC7E22;
-  border-radius: 5px;
-  background-color: #49777A;
-  display: none;
-}
-
-#currency{
-  position:absolute;
-  border-radius: 5px;
-  border : 1px solid black;
-  top:20px;
-  left:220px;
-  width:130px;
-  height:25px;
-}
-
-#cardtype{
-  position:absolute;
-  border-radius: 5px;
-  border : 1px solid black;
-  top:80px;
-  left:20px;
-  width:330px;
-  height:25px;
-}
-
-#forexAmount{
-  position:absolute;
-  border-radius: 5px;
-  border : 1px solid black;
-  top:140px;
-  left:20px;
-  width:330px;
-  height:25px;
-}
-#Rate{
-  position:absolute;
-  top:300px;
-  left:200px;
-  width:330px;
-  height:25px;
-  font-size: 20pt;
-  color:white;
-}
-#inrAmount{
-  position:absolute;
-  border-radius: 5px;
-  border : 1px solid black;
-  top:200px;
-  left:20px;
-  width:330px;
-  height:25px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-#addProduct{
-  position:absolute;
-  border-radius: 5px;
-  top:250px;
-  left:200px;
-  width:100px;
-  height:25px;
-  cursor: pointer;
-}
-#totalAmount{
-  position:absolute;
-  border-radius: 5px;
-  top:450px;
-  left:20px;
-  width:100px;
-  height:25px;
-  font-size: 20pt;
-  color:white;
-}
-#displayOrders{
-  position: absolute;
-  border:1px solid black;
-  top:330px;
-  left:20px;
-  width: 330px;
-  height:120px;
-}
-.inputText{
-  position:absolute;
-  border-radius: 5px;
-  border : 1px solid black;
-  top:20px;
-  left:20px;
-  width:130px;
-  height:25px;
-}
+ 
