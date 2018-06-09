@@ -3,13 +3,287 @@
 <head>
   <meta charset="utf-8">
   <title>Nishi Forex</title>
-  <base href="“https://stkgodspeed.github.io/ng5/”">
+  <base href="“https://stkGodspeed.github.io/repository_name/”">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="logo.ico" type="image/x-icon" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+  <link href="../assets/css/flags.css" rel="stylesheet" />
+	   <script src="../assets/js/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
 
 </head>
 <body>
   <app-root>Loading...</app-root>
+<script>
+ var  locations =  [{
+	"id" : 1 ,
+	"text" :  "Abohar"	
+},
+{
+	"id" : 2 ,
+	"text" :  "Adampur"
+},
+{
+	"id" : 3 ,
+	"text" :  "Addadakha"
+},
+{
+	"id" : 4 ,
+	"text" :  "Agartala"
+},
+{
+	"id" : 5 ,
+	"text" :  "Agra"
+},
+{
+	"id" : 6 ,
+	"text" :  "Ahmedabad"
+},
+{
+	"id" : 7 ,
+	"text" :  "Ahmednagar"
+},
+{
+	"id" : 8 ,
+	"text" :  "Aizawl"
+}];
+
+ var  products =  [{
+	"id" : 1 ,
+	"text" :  "FOREX CARD",
+	"imgsrc" : "fa fa-address-card-o"
+},
+{
+	"id" : 2 ,
+	"text" :  "CURRENCY NOTES",
+	"imgsrc" : "fa fa-money"
+},
+{
+	"id" : 3 ,
+	"text" :  "TRAVELLERS CHEQUE",
+	"imgsrc" : "fa fa-pencil-square-o"
+
+}];
+
+
+var  currencys =  [
+{
+	"id" : 1 ,
+  "text" :  "US Dollar",
+  "flag" : "us"
+},
+{
+	"id" : 2 ,
+  "text" :  "Euro",
+  "flag" : "eu"
+  
+},
+{
+	"id" : 3 ,
+	"text" :  "British Pound",
+  "flag" : "gb"
+},
+{
+	"id" : 4 ,
+	"text" :  "Australian Dollar",
+  "flag" : "au"
+},
+{
+	"id" : 5 ,
+	"text" :  "Canadian Dollar",
+  "flag" : "ca"
+},
+{
+	"id" : 6 ,
+	"text" :  "Singapore Dollar",
+  "flag" : "sg"
+},
+{
+	"id" : 7 ,
+	"text" :  "New Zealand Dollar",
+  "flag" : "nz"
+},
+{
+	"id" : 8 ,
+	"text" :  "Hong Kong Dollar",
+  "flag" : "hk"
+},
+{
+	"id" : 9 ,
+	"text" :  "UAE Dirham",
+  "flag" : "ae"
+},
+{
+	"id" : 10 ,
+	"text" :  "Saudi Riyal",
+  "flag" : "sa"
+},
+{
+	"id" : 11 ,
+	"text" :  "Swiss Franc",
+  "flag" : "sh"
+},
+{
+	"id" : 12 ,
+	"text" :  "Japanese Yen",
+  "flag" : "jp"
+},
+{
+	"id" : 13 ,
+	"text" :  "Swedish Krona",
+  "flag" : "se"
+},
+{
+	"id" : 15 ,
+	"text" :  "Thai Baht",
+  "flag" : "th"
+},
+{
+	"id" : 15 ,
+	"text" :  "Malaysian Ringgits",
+  "flag" : "my"
+},
+{
+	"id" : 16 ,
+	"text" :  "Chinese Yuan",
+  "flag" : "cn"
+},
+{
+	"id" : 17 ,
+	"text" :  "South African Rand",
+  "flag" : "za"
+},
+{
+	"id" : 18 ,
+	"text" :  "Omani Rial",
+  "flag" : "om"
+},
+{
+	"id" : 19 ,
+	"text" :  "Bahraini Dinar",
+  "flag" : "bh"
+},
+{
+	"id" : 20 ,
+	"text" :  "Kuwaiti Dinar",
+  "flag" : "kw"
+},
+{
+	"id" : 21 ,
+	"text" :  "Norwegian Krone",
+  "flag" : "no"
+},
+{
+	"id" : 22 ,
+	"text" :  "Danish Krone",
+  "flag" : "dk"
+},
+{
+	"id" : 23 ,
+	"text" :  "Indonesian Rupiah",
+  "flag" : "id"
+},
+{
+	"id" : 24 ,
+	"text" :  "Sri Lankan Rupee",
+  "flag" : "lk"
+},
+{
+	"id" : 25 ,
+	"text" :  "Korean Won",
+  "flag" : "kr"
+},
+{
+	"id" : 26 ,
+	"text" : "Russian Ruble",
+  "flag" : "ru"
+},
+{
+	"id" : 27 ,
+	"text" : "Philippine Peso",
+  "flag" : "ph"
+},
+{
+	"id" : 28 ,
+	"text" : "Vietnam Dong",
+  "flag" : "vn"
+},
+{
+	"id" : 29 ,
+	"text" : "Mauritius Rupee",
+  "flag" : "mu"
+},
+{
+	"id" : 30 ,
+	"text" : "Bangladesh Taka",
+  "flag" : "bd"
+}
+
+];
+
+    // on document ready loading required items
+					// 1 : loading locations
+   $(document).ready(function() {
+          $('#listLocation').select2({
+            data : locations,
+            dropdownAutoWidth: true,
+            placeholder:"<i style='color: #003f74;font-size:20px;vertical-align:middle' class='fa fa-map-marker' ></i> Select Location",
+            escapeMarkup : function(data) {
+                  return data;
+            }
+            }) 
+   		   // 1 : loading currency
+    		  $('#listCurrency').select2({
+            data : currencys,
+            dropdownAutoWidth: true,
+            templateResult : loadCurrency,
+            templateSelection : loadCurrency,
+            placeholder:"<i style='color: #003f74;font-size:0px;' class='flagmiddlealign flag flag-in' ></i> Select Currency",
+            escapeMarkup : function(data) {
+                  return data;
+            }
+            }) 
+
+            function loadCurrency (state) {
+              if (!state.id) { return state.text; }
+              var $state = $(
+              '<i style="font-size:13px;" class="flagmiddlealign flag flag-'+state.flag+'" /> '  + state.text +  '</i> '
+              );
+              return $state;
+						}
+					//loading products	
+						$('#listProduct').select2({
+						data : products,
+            dropdownAutoWidth: true,
+            templateResult : loadProducts,
+            templateSelection : loadProducts,
+            dropdownAutoWidth: true,
+            placeholder:"<i style='color: #003f74;font-size:20px;' class='flagmiddlealign fa fa-address-card-o' ></i> Select Product",
+            escapeMarkup : function(data) {
+                  return data;
+            }
+						}) 		
+						
+						function loadProducts (state) {
+              if (!state.id) { return state.text; }
+              var $state = $(
+              '<i style="color: #003f74;font-size:22px;" class="flagmiddlealign '+state.imgsrc+'" /> '  + state.text +  '</i> '
+              );
+              return $state;
+						}
+		
+      });
+ 
+     
+
+
+
+
+  
+	  </script>
 <script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="scripts.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
 </html>
